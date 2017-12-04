@@ -1,0 +1,129 @@
+/*
+Name: Sony Thach 
+Email: sony_thach@student.uml.edu   
+Comp.4610, GUI Programming I   
+Description: Assignment 6
+*/
+
+/*
+set left margin for all Text
+*/
+
+* {
+    margin-left: 32px;
+}
+
+/*
+set top and bottom margins to create seperation between forms
+*/
+
+#financeForm,
+#leaseForm,
+#featuresForm{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+#rowColumnsForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#featuresForm input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+set border for tables
+*/
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+/* 
+sliders for inputs 
+*/
+
+.ui-slider{
+    outline-width: thick;
+    background: orange;
+}
+
+#numberOfColumnsSlider{
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 20%;
+}
+#numberOfRowsSlider{
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 20%;
+}
+#estimatedMilesDriven1Slider{
+    margin-top: 10px;
+    margin-left: 260px;
+    width: 20%;   
+}
+#costPerGallon1Slider{
+    margin-top: 10px;
+    margin-left: 205px;
+    width: 20%;  
+}
+#interestRate1Slider{
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 20%; 
+}
+#monthsOfPayment1Slider{
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 20%; 
+}
+#estimatedMilesDriven2Slider{
+    margin-top: 10px;
+    margin-left: 260px;
+    width: 20%;   
+}
+#milesDrivenAllowedSlider{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 20%;   
+}
+#costPerGallon2Slider{
+    margin-top: 10px;
+    margin-left: 210px;
+    width: 20%;   
+}
+#leaseMonthlyCostSlider{
+    margin-top: 10px;
+    margin-left: 210px;
+    width: 20%;   
+}
+#costPerAdditionalMileSlider{
+    margin-top: 10px;
+    margin-left: 390px;
+    width: 20%;   
+}
+#monthsOfPayment2Slider{
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 20%;   
+}
+.generatedPriceSlider,
+.generatedMpgSlider{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 20%;   
+}
+  .ui-icon-circle-close {
+    cursor:pointer;
+  }
+#tabs li{
+    visibility: visible;
+}
